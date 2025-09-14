@@ -1,2 +1,7 @@
-package threads;public class SampleThread {
+package threads;
+
+public class SampleThread {
+    void meth(){
+        
+    }
 }
