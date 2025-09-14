@@ -1,5 +1,18 @@
+import threads.SampleThread;
+import threads.SampleThreadForRunnable;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        //thread class
+        SampleThread obj=new SampleThread();
+        obj.start();
+
+        //runnable interface
+        SampleThreadForRunnable sampleThreadForRunnable=new SampleThreadForRunnable();
+        Thread thread=new Thread(sampleThreadForRunnable);
+        thread.start();
+
+
     }
 }

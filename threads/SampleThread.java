@@ -1,7 +1,5 @@
 package threads;
 
-public class SampleThread {
-    void meth(){
-        
-    }
+public class SampleThread extends Thread{
+
 }
